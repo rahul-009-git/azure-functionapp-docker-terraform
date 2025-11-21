@@ -3,8 +3,9 @@ resource "azurerm_resource_group" "func_rg" {
   name = var.rg_name
 
   tags = {
-  environment = "dev"
-  owner = "rahul"
+  environment = "t1"
+  owner = "from first time"
   }
+  
 }
 
