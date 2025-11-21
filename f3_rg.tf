@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "func_rg" {
 
   tags = {
   environment = "t1"
-  owner = "from first time"
+  //owner = "from first time"
   }
   
 }
