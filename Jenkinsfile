@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-
-    }
+    agent any
 
     environment {
         ARM_CLIENT_ID       = credentials('azure-client-id')
